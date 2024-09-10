@@ -1,0 +1,58 @@
+/*Input fonts later*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-container {
+    width: 900px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*main sections background color*/
+
+.section-one {
+    background-color: #1f2937;
+}
+
+.section-two {
+    background-color: white;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+}
+
+.section-four {
+    background-color: white;
+}
+
+/*dark blue top section*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.top-links {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.second-bar {
+    display: flex;
+}
+
