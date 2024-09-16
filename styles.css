@@ -40,7 +40,7 @@ a {
     background-color: white;
 }
 
-/*dark blue top section*/
+/*FIRST SECTION*/
 
 .section-one {
     color: #F9FAF8;
@@ -98,7 +98,7 @@ a {
     border-radius: 10px;
 }
 
-/* white second section*/
+/*SECOND SECTION*/
 
 .section-two {
     padding-top: 50px;
@@ -113,7 +113,7 @@ a {
 .boxes {
     display: flex;
     justify-content: center;
-    gap: 60px;
+    gap: 70px;
 }
 
 .box-placeholder {
@@ -123,28 +123,67 @@ a {
     border-radius: 10px;
 }
 
-/* grey third section */
+.box-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+}
+
+.box-column p {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 100;
+}
+
+/*THIRD SECTION*/
 
 .section-three {
-    padding: 100px 0;
+    padding: 75px 0;
 }
 
 .section-three h3,
 .section-three p {
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 20px;
+    font-weight: 100;
 }
 
 .section-three h3 {
     text-align: end;
+    font-weight: bold;
 }
 
-/* white footer section*/
+/*FOURTH SECTION*/
 
 .blue-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     width: 900px;
     height: 125px;
     margin-top: 100px;
     margin-bottom: 100px;
-    background-color: blue;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+}
+
+.blue-box button {
+    background-color: #3882F6;
+    padding: 10px 15px;
+    color: #F9FAF8;
+    border: 1px solid #F9FAF8;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.blue-box h4 {
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+
+.blue-box p {
+    font-weight: 100;
 }
