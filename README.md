@@ -1,13 +1,12 @@
-# landing-page
+# Landing Page (The Odin Project)
 
-This README file will serve as a log/ diary for my progress on this project.
+### A landing page project completed per the specifications from The Odin Project. Tasked to complete a landing page given a specific brief (shown below)
 
-Pre-solution check 
+![Image of the Landing Page outcome](<Project Brief.png>)
 
-I have completed the project to the best of my ability, below are some thoughts/ observations,
+## Skills learned/ improved upon during this project
 
-1. I should try not to dwell on exact measurements/ alignments to make them pixel perfect
-2. I may have created more divs than needed but at the moment this is my way of compartmentalizing the various sections of the landing page
-3. My CSS doesn't feel very efficient. I am sure there are ways I can change this
-4. Again, with spacing each section, there is probably a more efficient way to do this (I was doing it per section). Perhaps the solution will reveal something
-5. I am not aware of a simple way to input an image and resize it without stretching/ distorting it. I will look into this in the solution
+* Nesting of div elements in relation to flex box 
+* Parent-child element relationships within CSS 
+* Organizing a page layout given a certain brief 
+* flex box, html, css
